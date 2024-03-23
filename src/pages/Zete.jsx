@@ -18,10 +18,11 @@ const ITEMS = [{name:"Environmental Simulation",logo:"Utilizing advanced simulat
         {name:"Lifecycle Assessment",logo:"Our AI-based CAD application provides comprehensive lifecycle assessments, enabling stakeholders to evaluate the long-term environmental impact of building designs and identify opportunities for further emissions reduction."},
     {name:"Collaboration and Integration",logo:"With seamless collaboration features and compatibility with existing CAD software, our platform facilitates interdisciplinary collaboration and integration into existing workflows, empowering architects, engineers, and sustainability experts to work together towards a common goal of carbon-neutral construction."}]
 
-const Section3 = () => {
+const Zete = () => {
   return (
     <div>
     <Section1></Section1>
+    <Typography></Typography>
     <Grid
         container
         spacing={10}
@@ -60,4 +61,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Zete;
