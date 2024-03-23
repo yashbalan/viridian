@@ -107,7 +107,7 @@ const Section1 = () => {
         />
 
         {/* Horse */}
-        <img
+        {/* <img
           src={HorseImage}
           style={{
             position: "absolute",
@@ -116,7 +116,7 @@ const Section1 = () => {
             bottom: "45%",
             transform: "rotate(7deg)",
           }}
-        />
+        /> */}
 
         <Box
           sx={{
@@ -141,8 +141,8 @@ const Section1 = () => {
       >
         <Stack sx={{ height: "100%" }} justifyContent="center">
           <Title
-            variant={{ xs: "h3", sm: "h2", md: "h1" }}
-            sx={{ letterSpacing: "0.02em", mb: 1 }}
+            variant={{ xs: "h3", sm: "h2", md: "h1",}}
+            sx={{ letterSpacing: "0.02em", mb: 1,color:"black"  }}
           >
             {title}
           </Title>
@@ -154,7 +154,7 @@ const Section1 = () => {
             {subtitle}
           </Title>
 
-          <Stack
+          {/* <Stack
             direction={{ xs: "column", md: "row" }}
             alignItems="center"
             spacing={4}
@@ -185,7 +185,7 @@ const Section1 = () => {
                 <Typography variant="h5">Google Play</Typography>
               </Stack>
             </CustomButton>
-          </Stack>
+          </Stack> */}
         </Stack>
       </Container>
     </Box>

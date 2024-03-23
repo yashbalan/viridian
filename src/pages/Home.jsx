@@ -21,19 +21,27 @@ const Home = () => {
       <Navbar />
 
       {/* Sections */}
-      <Section1 />
-      <Section2 />
+      <div id="section1">
+      <Section1  />
+      </div>
+      {/* <Section2 /> */}
       
       <Box sx={{ bgcolor: "background.default", position: "relative" }}>
+      <div id="section2">
         <Section3 />
+        </div>
         <Section4 />
-        <Section5 />
+        <div id="section3">
+        <Section5   />
+        </div>
+        <div id="section4">
         <Section6 />
-        <Section7 />
-        <Section8 />
-        <Section9 />
+        </div>
+        {/* <Section7 /> */}
+        {/* <Section8 /> */}
+        {/* <Section9 /> */}
         <Section10 />
-        <Section11 />
+        {/* <Section11 /> */}
 
         {/* Footer */}
         <Footer />

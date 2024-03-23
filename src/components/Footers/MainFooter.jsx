@@ -14,8 +14,7 @@ import Title from "../Title";
 
 const {
   subscribe,
-  protocols,
-  governance,
+
   support,
   developers,
   copyright,
@@ -54,15 +53,7 @@ const Footer = () => {
           {/* Links */}
           <Grid item xs={12} md={6} lg={7} xl={8}>
             <Grid container spacing={2}>
-              {/* Protocols */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
-                <LinkSection {...protocols} />
-              </Grid>
 
-              {/* Governance */}
-              <Grid item xs={6} sm={3} md={6} lg={3}>
-                <LinkSection {...governance} />
-              </Grid>
 
               {/* Support */}
               <Grid item xs={6} sm={3} md={6} lg={3}>

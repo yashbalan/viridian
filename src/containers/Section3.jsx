@@ -21,7 +21,7 @@ const Section3 = () => {
             <Stack alignItems="center">
               <img
                 src={logo}
-                style={{ height: "120px", objectFit: "contain" }}
+                style={{ height: "60px", objectFit: "contain" }}
               />
 
               <Typography variant="body2" color="text.secondary">

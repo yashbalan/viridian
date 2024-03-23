@@ -1,24 +1,25 @@
 // Section1
 import ShootingStarImage from "../assets/images/section1/main-bg-0-0.png";
-import MainBG from "../assets/images/section1/main-bg-0_1.webp";
+import MainBG from "../assets/images/section1/good house.jfif";
 import TreesImage from "../assets/images/section1/main-bg-1_1.webp";
 import CliffImage from "../assets/images/section1/main-bg-2_1.webp";
-import HorseImage from "../assets/images/section1/main-bg-3.png";
+import HorseImage from "../assets/images/section1/h4.jpg";
 
 // Section3
-import EthImg from "../assets/images/section3/eth.webp";
-import BscImg from "../assets/images/section3/bsc.webp";
-import PolygonImg from "../assets/images/section3/polygon.webp";
-import OptimismImg from "../assets/images/section3/optimism.webp";
-import GnosisImg from "../assets/images/section3/gnosis.webp";
-import AvalancheImg from "../assets/images/section3/avalanche.webp";
+import EthImg from "../assets/images/section3/passive_solar.png";
+import BscImg from "../assets/images/section3/recycle.png";
+import PolygonImg from "../assets/images/section3/earth_friendly.png";
+import OptimismImg from "../assets/images/section3/roofs.png";
+import GnosisImg from "../assets/images/section3/bricks.png";
+import AvalancheImg from "../assets/images/section3/climate.png";
 import ArbitrumImg from "../assets/images/section3/arbitrum.webp";
 import FantomImg from "../assets/images/section3/fantom.webp";
 import KlaytnImg from "../assets/images/section3/klaytn.webp";
 import AuroraImg from "../assets/images/section3/aurora.webp";
 
 // Section4
-import NewsImg from "../assets/images/section4/news-image.webp";
+import NewsImg from "../assets/images/section4/carbon2.jpg";
+import Unplanned from "../assets/images/section4/unplanned.png";
 import Phone1Img from "../assets/images/section4/wallet-buy.webp";
 import Phone2Img from "../assets/images/section4/wallet-stake.webp";
 import Phone3Img from "../assets/images/section4/wallet-store.webp";
@@ -90,8 +91,8 @@ export const section1Content = {
   CliffImage,
   HorseImage,
   ShootingStarImage,
-  title: "One-stop access",
-  subtitle: "to decentralized finance",
+  title: "Journey towards",
+  subtitle: "A sustainable world",
 };
 
 export const section2Content = {
@@ -104,58 +105,64 @@ export const section2Content = {
 };
 
 export const section3Content = {
-  title: "Optimize your trades across hundreds of DEXes on multiple networks",
+  title: "Cut costs, shape the future with eco friendly architects and nature.",
   ITEMS: [
-    { logo: EthImg, name: "Ethereum" },
-    { logo: BscImg, name: "BNB Chain" },
-    { logo: PolygonImg, name: "Polygon" },
-    { logo: OptimismImg, name: "Optimism" },
-    { logo: GnosisImg, name: "Gnosis" },
-    { logo: AvalancheImg, name: "Avalanche" },
-    { logo: ArbitrumImg, name: "Arbitrum" },
-    { logo: FantomImg, name: "Fantom" },
-    { logo: KlaytnImg, name: "Klaytn" },
-    { logo: AuroraImg, name: "Aurora" },
+    { logo: EthImg, name: "Passive Solar Design" },
+    { logo: BscImg, name: "Water Recycling" },
+    { logo: PolygonImg, name: "Earth Friendly Materials" },
+    { logo: GnosisImg, name: "Sand-Plastic Bricks" },
+    { logo: AvalancheImg, name: "Climate-Smart Design" },
+    // { logo: ArbitrumImg, name: "Arbitrum" },
+    // { logo: FantomImg, name: "Fantom" },
+    // { logo: KlaytnImg, name: "Klaytn" },
+    // { logo: AuroraImg, name: "Aurora" },
   ],
 };
 
 export const section4Content = {
   top: {
-    title: "Never-ending liquidity",
+    title: "Get rid of never ending carbon emissions",
     subtitle:
-      "1inch instantly analyzes thousands of quotes and fees across multiple DEXes to provide users with the best rates.",
+      "Eliminate perpetual carbon emissions for a cleaner, sustainable future",
     image: NewsImg,
   },
+  middle:{
+    title: "Avoid unplanned urban sprawl",
+    subtitle:
+      "Prevent uncontrolled urban expansion with strategic planning and sustainable development solutions.",
+    image: Unplanned,
+    
+  },
   bottom: {
-    title: "1inch DeFi Wallet",
+    title: "Don't know the steps ?",
     TABS: [
       {
-        name: "Buy",
+        name: "Reach us",
         image: Phone1Img,
         subtitle:
-          "Buy crypto with your bank card using our partner fiat gateway providers.",
+          "Feel free to reach out to us for any urge to build a house or assistance. We're here to help !",
       },
       {
-        name: "Store",
+        name: "Architect",
         image: Phone3Img,
         subtitle:
-          "Your crypto is protected with the most sophisticated security measures.",
+          "A dedicated architect to guide you through your project. Get in touch today and let's start building your vision together!",
       },
       {
-        name: "Transfer",
+        name: "Let's build it",
         image: Phone5Img,
-        subtitle: "Transfer crypto in multiple blockchain networks.",
+        subtitle: "Take the next step in realizing your dream project! Once you connect with us, our team will pair you with a dedicated architect to refine your vision. Then, we'll handpick the best building startups to construct your dream space. Let's turn your ideas into reality – contact us today!",
       },
       {
-        name: "Swap",
+        name: "You are not alone",
         image: Phone4Img,
-        subtitle: "Swap any amount of tokens at the best rates.",
+        subtitle: "Feeling alone ? Don't worry we got you!",
       },
       {
-        name: "Stake",
+        name: "Enjoy !",
         image: Phone2Img,
         subtitle:
-          "Stake 1INCH to participate in network governance and be eligible for gas costs refunds.",
+          "Hey now you can have fun, because that's what we do when we are home !",
       },
     ],
   },
@@ -164,41 +171,41 @@ export const section4Content = {
 export const section5Content = {
   BannerBgImage,
   BannerBgImageMobile,
-  title: "1inch Fusion",
+  title: "One brick at a time",
   subtitle:
-    "The Fusion upgrade makes swaps on 1inch yet more efficient and secure, combining liquidity from the entire crypto market in one place.",
+    "Introducing eco-conscious bricks crafted from recycled plastic, paving the way for a greener planet, Join the movement towards sustainable construction and make a positive impact on our environment",
 };
 
 export const section6Content = {
-  title: "1inch products",
+  title: "Viridian Solutions",
   ITEMS: [
     {
-      title: "Aggregation Protocol",
+      title: "Directed Solutions",
       subtitle:
-        "Liquidity aggregation from multiple DEXes to ensure the best swap rates.",
+        "Engineers know the direction for possible growth for your house and nature.",
       image: Sec6Image1,
     },
     {
-      title: "Limit Order Protocol",
+      title: "We know the market",
       subtitle:
-        "The most innovative and flexible limit order functionality in DeFi.",
+        "Our AI models and architects know the best time to start the construction",
       image: Sec6Image2,
     },
     {
-      title: "Liquidity Protocol",
+      title: "We love nature, and we echo its wisdom.",
       subtitle:
-        "A next-generation AMM that offers capital efficiency to liquidity providers.",
+        "Like nature, we understand the delicate balance needed for a sustainable future. Embrace eco-conscious living with us as we strive to harmonize with the planet's rhythms and preserve its beauty for generations to come.",
       image: Sec6Image3,
     },
     {
-      title: "1inch Earn",
+      title: "Everyone Earns",
       subtitle:
-        "A derivative-based product offering liquidity providers attractive APYs.",
+        "You earn a house, nature earns better humans and we earn your faith.",
       image: Sec6Image4,
     },
     {
-      title: "1inch RabbitHole",
-      subtitle: "A feature that protects MetaMask users from sandwich attacks.",
+      title: "Yes! Magic happens",
+      subtitle: "You tell us what's not possible and will show you the magic!",
       image: Sec6Image5,
     },
   ],
@@ -338,22 +345,22 @@ export const Section11Content = {
 };
 
 export const footerContent = {
-  protocols: {
-    title: "Protocols",
-    links: [
-      { title: "Liquidity Protocol" },
-      { title: "Aggregation Protocol" },
-      { title: "Limit Order Protocol" },
-    ],
-  },
-  governance: {
-    title: "Governance",
-    links: [
-      { title: "1inch DAO" },
-      { title: "1INCH token" },
-      { title: "Forum" },
-    ],
-  },
+  // protocols: {
+  //   title: "Protocols",
+  //   links: [
+  //     { title: "Liquidity Protocol" },
+  //     { title: "Aggregation Protocol" },
+  //     { title: "Limit Order Protocol" },
+  //   ],
+  // },
+  // governance: {
+  //   title: "Governance",
+  //   links: [
+  //     { title: "1inch DAO" },
+  //     { title: "1INCH token" },
+  //     { title: "Forum" },
+  //   ],
+  // },
   support: {
     title: "Support",
     links: [
@@ -373,7 +380,7 @@ export const footerContent = {
     ],
   },
   subscribe: {
-    title: "Subscribe to 1inch newsletter",
+    title: "Subscribe to newsletter",
     subtitle: "Get the latest news and updates",
   },
   socials: [
@@ -385,9 +392,9 @@ export const footerContent = {
     { icon: GitHubIcon },
   ],
   copyright: {
-    left: "© 2023 1inch, All Rights Reserved.",
-    center: "ENS: 1inch.eth",
-    right: "BUIDL @ETHNewYork 2019",
+    left: "© 2024Viridian, All Rights Reserved.",
+    center: "Viridian",
+    right: "BUILD @Viridian 2024",
   },
 };
 

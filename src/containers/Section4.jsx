@@ -4,7 +4,7 @@ import OutlinedButton from "../components/Buttons/OutlinedButton";
 import Title from "../components/Title";
 import { section4Content } from "../utils/content";
 
-const { top, bottom } = section4Content;
+const { top,middle, bottom } = section4Content;
 
 const Section4 = () => {
   const [tabValue, setTabValue] = useState(0);
@@ -22,8 +22,8 @@ const Section4 = () => {
               {top.subtitle}
             </Typography>
 
-            <OutlinedButton arrow fit>
-              Swap
+            <OutlinedButton onClick={()=>window.location="./enquire"} arrow fit>
+              Enquire Now
             </OutlinedButton>
           </Stack>
         </Grid>
@@ -32,6 +32,31 @@ const Section4 = () => {
         <Grid item xs={12} md={6}>
           <img
             src={top.image}
+            style={{ width: "100%", objectFit: "contain" }}
+          />
+        </Grid>
+      </Grid>
+
+      <Grid sx={{mt:10}} container spacing={10} flexWrap="wrap-reverse" alignItems="center">
+        {/* Left */}
+        <Grid item xs={12} md={6}>
+          <Stack spacing={2} sx={{ maxWidth: 480 }}>
+            <Title variant={{ xs: "h3", md: "h2" }}>{middle.title}</Title>
+
+            <Typography variant="body2" color="text.secondary" sx={{ pb: 2 }}>
+              {middle.subtitle}
+            </Typography>
+
+            <OutlinedButton onClick={()=>window.location="./enquire"} arrow fit>
+            Enquire Now
+            </OutlinedButton>
+          </Stack>
+        </Grid>
+
+        {/* Right */}
+        <Grid item xs={12} md={6}>
+          <img
+            src={middle.image}
             style={{ width: "100%", objectFit: "contain" }}
           />
         </Grid>
@@ -85,7 +110,7 @@ const Section4 = () => {
               {bottom.TABS[tabValue].subtitle}
             </Typography>
 
-            <OutlinedButton arrow fit>
+            <OutlinedButton onClick={()=>window.location="./enquire"} arrow fit>
               Learn more
             </OutlinedButton>
           </Stack>

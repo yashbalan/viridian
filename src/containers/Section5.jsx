@@ -64,6 +64,7 @@ const Section5 = () => {
                 fit={!isMobile}
                 fullWidth={isMobile}
                 sx={{ height: 48 }}
+                onClick={()=>window.location="./enquire"}
               >
                 Learn more
               </OutlinedButton>

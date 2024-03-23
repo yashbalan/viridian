@@ -42,7 +42,7 @@ const ServiceCard = ({ title, subtitle, image }) => {
           }}
         />
 
-        <OutlinedButton arrow fit>
+        <OutlinedButton onClick={()=>window.location="./enquire"} arrow fit>
           Learn more
         </OutlinedButton>
       </Stack>

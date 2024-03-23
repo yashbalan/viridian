@@ -40,7 +40,7 @@ const Section8 = () => {
           {caption}
         </Typography>
 
-        <OutlinedButton fit arrow>
+        <OutlinedButton onClick={()=>window.location="./enquire"} fit arrow>
           Learn more
         </OutlinedButton>
       </Stack>
