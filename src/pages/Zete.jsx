@@ -22,7 +22,8 @@ const Zete = () => {
   return (
     <div>
     <Section1></Section1>
-    <Typography></Typography>
+    <Stack alignItems="center">
+   
     <Grid
         container
         spacing={10}
@@ -42,10 +43,11 @@ const Zete = () => {
         <Grid item xs={12} md={6}>
 
 
-  
+        <Title variant={{ xs: "h3", md: "h2"}} >Zete: The AI with a
+     deep understanding of zero emissions</Title>
 
       
-                <div style={{display:"flex",flexDirection:"column", marginLeft:"30%"}}>
+                <div style={{display:"flex",flexDirection:"column"}}>
               {
                 ITEMS.map((item)=>
                 <Typography variant="body2" color="text.secondary" sx={{ mt:2, fontSize:"1.3em", border:"2px; white"}} >{item.name}</Typography>
@@ -56,6 +58,7 @@ const Zete = () => {
 
         </Grid>
       </Grid>
+      </Stack>
   </div>
   
   );
